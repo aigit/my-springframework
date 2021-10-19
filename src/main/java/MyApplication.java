@@ -18,12 +18,15 @@ public class MyApplication {
             /*IScoreCounter scoreCounter = applicationContext.
                     getBean("counterProxy",IScoreCounter.class);
                    scoreCounter.add();*/
-            ScoreCounterService scoreCounter = applicationContext.getBean("counterService",
+            IScoreCounter scoreCounter = applicationContext.getBean("counterService",
                     ScoreCounterService.class);
             //ScoreCounterService scoreCounter = new ScoreCounterService();
             MyProxyHandler proxyHandler = new MyProxyHandler(scoreCounter);
-            ScoreCounterService proxy = (ScoreCounterService) proxyHandler.getProxy();
+            IScoreCounter proxy = (IScoreCounter) proxyHandler.getProxy();
             proxy.add();
+
+            log.info("time diff:{}",System.currentTimeMillis());
+
 
         }catch (Exception e){
             e.printStackTrace();
