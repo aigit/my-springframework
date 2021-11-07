@@ -1,4 +1,4 @@
-package org.ldl.study.service;
+package org.study.service;
 
 public interface IScoreCounter {
 

@@ -1,5 +1,5 @@
-import org.ldl.study.config.UserConfig;
-import org.ldl.study.entity.User;
+import org.study.config.UserConfig;
+import org.study.entity.User;
 import org.junit.jupiter.api.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

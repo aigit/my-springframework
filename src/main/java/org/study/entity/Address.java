@@ -1,4 +1,4 @@
-package org.ldl.study.entity;
+package org.study.entity;
 
 import lombok.Data;
 import org.springframework.stereotype.Component;
