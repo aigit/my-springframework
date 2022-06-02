@@ -1,3 +1,4 @@
+![img.png](img.png)
 -- -- 
 AOP实现三大步骤
 ```html
@@ -33,4 +34,10 @@ Aware
     initailizingBean的afterPropertiesSet
     执行bean的init-method属性指定初始化方法
     利用@PostConstruct注解初始化方法
+``` 
+postProcesser后置处理器
+```html
+- AutowareAnnotationBeanPostProcesser: 解析@Autoware @Value注解
+- CommonAnnotationBeanPostProcesser: 解析 @Resource @PostConstruct @PreDestroy
+- AnnotationAwareAspectAutoProxyCreator: 支持动态代理
 ```
