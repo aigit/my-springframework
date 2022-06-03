@@ -1,7 +1,6 @@
-package org.ldl.study.service.impl;
+package org.study.service.impl;
 
 import lombok.extern.slf4j.Slf4j;
-import org.ldl.study.service.IScoreCounter;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

@@ -1,8 +1,7 @@
-package org.ldl.study.service.impl;
+package org.study.service.impl;
 
 import lombok.extern.slf4j.Slf4j;
-import org.ldl.study.service.IScoreCounter;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.study.service.IScoreCounter;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
