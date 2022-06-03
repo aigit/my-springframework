@@ -1,12 +1,10 @@
-package org.ldl.study.config;
+package org.study.config;
 
 import lombok.Data;
-import org.ldl.study.entity.Address;
-import org.ldl.study.entity.User;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.stereotype.Component;
+import org.study.entity.Address;
+import org.study.entity.User;
 
 @Data
 @Configuration

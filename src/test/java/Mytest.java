@@ -1,9 +1,10 @@
 import framework.WebConfig;
-import org.ldl.study.config.UserConfig;
-import org.ldl.study.entity.User;
+
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.study.config.UserConfig;
+import org.study.entity.User;
 
 public class Mytest {
 

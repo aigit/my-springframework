@@ -1,9 +1,7 @@
-package org.ldl.study;
+package org.study;
 
 import lombok.extern.slf4j.Slf4j;
-import org.ldl.study.config.LifeCycleBean;
-import org.ldl.study.config.MyBeanPostProccesor;
-import org.ldl.study.config.UserConfig;
+import org.study.config.MyBeanPostProccesor;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

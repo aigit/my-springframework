@@ -1,4 +1,4 @@
-package org.ldl.study.config;
+package org.study.config;
 
 import lombok.extern.slf4j.Slf4j;
 
