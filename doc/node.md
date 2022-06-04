@@ -37,7 +37,17 @@ Aware
 ``` 
 postProcesser后置处理器
 ```html
-- AutowareAnnotationBeanPostProcesser: 解析@Autoware @Value注解
-- CommonAnnotationBeanPostProcesser: 解析 @Resource @PostConstruct @PreDestroy
-- AnnotationAwareAspectAutoProxyCreator: 支持动态代理
-```
+bean工厂处理器
+  AutowareAnnotationBeanPostProcesser: 解析@Autoware @Value注解
+  CommonAnnotationBeanPostProcesser: 解析 @Resource @PostConstruct @PreDestroy
+bean后置处理器
+  AnnotationAwareAspectAutoProxyCreator: 支持动态代理
+``` 
+---
+代理模式
+```html
+jdk:
+    代理类通过实现接口的方式实现，需要classloader
+cglib:
+    通过extends被代理类实现
+````
