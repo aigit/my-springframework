@@ -24,6 +24,10 @@ dependencies {
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter', version: '2.7.0'
     // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.7.0'
+// https://mvnrepository.com/artifact/org.springframework/spring-test
+    implementation group: 'org.springframework', name: 'spring-test', version: '5.3.20'
+    testImplementation group: 'org.springframework', name: 'spring-test', version: '5.3.20'
+
 
 
 

@@ -50,4 +50,5 @@ jdk:
     代理类通过实现接口的方式实现，需要classloader
 cglib:
     通过extends被代理类实现
-````
+```` 
+![img_1.png](img_1.png)
