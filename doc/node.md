@@ -38,9 +38,10 @@ Aware
 postProcesser后置处理器
 ```html
 bean工厂处理器
+  ConfigurationClassPostProcessor 解析@Configuration 
+bean后置处理器
   AutowareAnnotationBeanPostProcesser: 解析@Autoware @Value注解
   CommonAnnotationBeanPostProcesser: 解析 @Resource @PostConstruct @PreDestroy
-bean后置处理器
   AnnotationAwareAspectAutoProxyCreator: 支持动态代理
 ``` 
 ---
